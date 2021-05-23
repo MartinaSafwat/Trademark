@@ -1,0 +1,276 @@
+*{
+    text-decoration: none !important;
+}
+img{
+    width: 100%;
+}
+/* start nav section  */
+
+.bg-dark{
+    background-color: black !important;
+}
+.navbar{
+    padding-bottom: 5px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    text-transform: uppercase;
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #E68F29;
+}
+.navbar-dark .navbar-brand{
+    color: #E68F29;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+    color: #E68F29;
+
+}
+.navbar-brand:hover{
+    color: #E68F29;
+}
+/* end nav section  */
+
+/* start heading section  */
+
+.header{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)) ,url(../images/slide-1.jpg) center center;
+    padding: 155px 0 262px;
+    background-size: cover;
+}
+.header img{
+    width: 20%;
+}
+.header h1,.header p{
+    text-align: center;
+    color: #fff;
+}
+.header h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+.header p{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.header a{
+    background-color: #F8992B;
+    color: #fff;
+    text-transform: uppercase;
+    padding:7px 20px ;
+}
+/* end heading section  */
+
+/* start about section */
+
+.about{
+    padding-top: 50px;
+}
+.about h5{
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.about h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 32px;
+}
+.about p{
+    font-size: 12px;
+}
+hr{
+    width: 45px;
+    margin: 0;
+    background: #E68F29;
+    height: 2px;
+    margin-top: 15px;
+}
+.about-img{
+    height: 360px;
+}
+.img1{
+    background: url(../images/Architecture.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.img2{
+    background: url(../images/Engineering.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.img3{
+    background: url(../images/Interior-Design.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.about-img h4{
+    color:white;
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.multi-img{
+    z-index: 100;
+    position: relative;
+    margin-bottom: 125px;
+}
+.parent{
+    position: relative;
+}
+.black{
+    background-color: #000;
+    color: #fff;
+    margin-top: 90px;
+    padding: 50px;
+    width: 50%;
+    position: relative;
+}
+.black h5{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.black h1{
+    text-transform: uppercase;
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.black p{
+    width: 90%;
+    text-align: justify;
+    margin: 15px 0 45px;
+}
+.link{
+    color: #E68F29;
+    border: 1px solid #E68F29;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.orange{
+    background:linear-gradient(rgba(245,159,61,.9),rgba(245,159,61,.9)), url(../images/home-testimonials-bg.jpg);
+    height: 470px;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    padding: 60px;
+    position: absolute;
+    bottom: 85px;
+    left: 45%;
+    z-index: 1;
+}
+.orange i{
+    color: #F7BF82;
+    margin-top: 30px;
+}
+.orange hr{
+    background: #fff;
+}
+
+/* end about section */
+
+/* start portfolio section */
+
+.portfolio{
+    padding-top: 40px;
+}
+h5{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+h1{
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.portfolio hr{
+    margin-bottom: 20px;
+}
+.portfolio p{
+    font-size: 13px;
+    line-height: 25px;
+}
+.portfolio-img img{
+    margin-bottom: 10px;
+}
+
+/* end portfolio section */
+
+/* start partners section */
+
+.partners{
+    padding-top: 50px;
+}
+
+/* end partners section */
+
+/* start contact section */
+
+.contact{
+    padding-top: 80px;
+}
+.contact-p{
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+.contact h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+.contact hr{
+    margin: 30px 0;
+}
+.contact p{
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.contact span{
+    color: #f38c31;
+}
+.contact i{
+    padding-right: 15px;
+}
+.contact i:hover{
+    color:#F8992B;
+    cursor: pointer;
+}
+.contact input{
+    margin-bottom: 30px;
+}
+input[type="submit"]{
+    background-color: #F8992B;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+input.form-control::placeholder,textarea.form-control::placeholder {
+    color: #F8992B;;
+}
+
+.contact img{
+    height: 25px;
+}
+.footer{
+    color:#7e7f80;
+    text-transform: capitalize;
+    padding: 25px;
+}
+.footer span{
+    color:#E68F29;
+    font-weight: bold;
+}
+
+/* end contact section */

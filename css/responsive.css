@@ -1,0 +1,43 @@
+/* small device */
+
+@media(min-width:280px) and (max-width:767px){
+    .about-img{
+        margin-bottom:10px
+    }
+    .partners hr{
+        margin-bottom: 20px;
+    }
+    .black ,.orange{
+        display: none;
+    }
+    .contact i{
+        margin-bottom: 20px;
+    }
+}
+
+/* medium device */
+
+@media(min-width:768px){
+    .partners hr{
+        margin-bottom: 20px;
+    }
+
+}
+
+/* large device */
+
+@media(min-width:992px){
+    .container{
+        max-width: 850px;
+    }
+}
+
+/* extra large device */
+
+@media(min-width:1200px){
+    .container{
+        max-width: 1000px;
+    }
+    
+}
+
